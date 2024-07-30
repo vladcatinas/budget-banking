@@ -8,7 +8,7 @@ import { usePathname } from 'next/navigation';
 import React from 'react';
 
 interface SidebarProps {
-    user: any; // Define the user type properly based on your use case
+    user: any; 
 }
 
 const Sidebar = ({user}:SiderbarProps) => {
